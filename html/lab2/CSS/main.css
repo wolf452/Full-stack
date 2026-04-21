@@ -1,0 +1,46 @@
+.heading {
+    text-align: center;
+    color: blue;
+}
+
+.size-img-me {
+    width: 250px;
+
+}
+
+
+
+.size-img-app {
+    width: 60px;
+
+
+}
+
+.fg-color {
+    color: blue;
+
+}
+
+.bg-p {
+    background-color: azure;
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.table-bgcolor {
+    background-color: blue;
+    width: 100%;
+
+}
+
+.send {
+    background-color: blue;
+}
+
+.reset {
+
+    background-color: red;
+}
