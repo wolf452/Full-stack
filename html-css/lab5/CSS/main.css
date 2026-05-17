@@ -1,0 +1,1388 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+   font-family: "Exo", sans-serif;
+     
+}
+
+#hero{
+    background-color: #FFF085;
+    
+  
+    border: 4px solid black;
+    
+}
+
+#hero .navbar{
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right:20px ;
+   
+     z-index: 9999;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 10px 90px; */
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 15px;
+    align-items: flex-start;
+  
+    
+    
+
+
+}
+#hero .navbar .logo{
+   font-size: 30px;
+   font-weight: 800;
+   
+   
+    
+}
+#hero .navbar .logo .titleColor{
+    color: #FF6900;
+}
+
+#hero .navbar .listchoice ul{
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-start;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+
+    
+  
+    
+
+}
+
+ #hero .navbar   .endNavbar{
+    padding: 10px 17px;
+    border: 3px solid black;
+    background-color: #FFD15B;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+     }
+
+#hero .navbar .listchoice ul li{
+    padding: 0 15px ;
+    text-transform: uppercase;
+     color: black;
+    
+    
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#hero .navbar .listchoice ul a:hover{
+    color: #FFD15B ;
+}
+ #hero .navbar   .endNavbar:hover{
+    transform: scale(1.1 , 1.1);
+    
+
+ }
+ @media screen and (max-width:1280px) {
+   #hero .container .listchoice,
+#hero .container  .endNavbar{
+    display: none;
+   
+}
+
+    #hero .navbar .list:hover .bar{
+    transform: translatex(-80%);
+    
+  /* align-items: center; */
+    
+ }
+ #hero .navbar .list:hover .icon{
+    display: none;
+ }
+
+ }
+
+ #hero .navbar .list .icon  {
+    width: 25px;
+    height: 25px;
+    border: 4px solid black;
+    padding: 25px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #FF6900;
+    
+ }
+ #hero .navbar .list  .icon .firstline{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+ }
+#hero .navbar .list  .icon .secondline{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    
+    position: absolute;
+    top: 22px;
+    left: 10px;
+ }
+
+#hero .navbar .list  .icon .threeline{
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    
+    position: absolute;
+    top: 32px;
+    left: 10px;
+ }
+
+
+
+ #hero .navbar .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+
+
+ }
+#hero .navbar .list .back{
+background-color: tomato;
+    /* width: 100%;
+    height: 100%; */
+
+
+}
+
+  #hero .navbar .list .bar{
+    transform: translate(180%);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: white;
+    height: 100dvb;
+    width: 200px;
+    align-items: center;
+   
+   
+    
+  }
+  #hero .navbar .list .bar .menu {
+    padding: 0  5px  14px 5px;
+  }
+  #hero .navbar .list .bar .menu span{
+    padding-left:10px ;
+    margin-top: 18px;
+  }
+#hero .navbar .list .bar .menu span{
+   
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#hero .navbar .list .bar .listmenu li{
+     padding: 0  0 14px 0;
+       font-size: 20px;
+    font-weight: 700;
+
+}
+#hero .navbar .list .bar .listmenu ul{
+    list-style: none;
+}
+#hero .navbar .list .bar .listmenu{
+    padding-left: 8px;
+}
+#hero .navbar .list .bar .listmenu span{
+    padding: 16px 27px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    background-color: #FFD15B ;
+    margin-top: 100px;
+    position: relative;
+    top: 19px;
+    left: 0;
+   
+}  
+ #hero .navbar .list a:hover {
+    color:#FFD15B ;
+    transform: scale(1.1);
+    display:inline-block
+ }
+#hero .navbar .list .back .scaleitem:hover {
+  transform: scale(1.1 , 1.1);
+    
+    
+  
+}
+#hero .secondPart .content{
+    display: flex;
+    margin-top: 40px 0 0 0;
+}
+#hero .secondPart .content  .item{
+    width: 50%;
+     position: relative;
+     top: 0;
+     left: 0;
+}
+#hero .secondPart .content    .item .image{
+    width:65%;
+     border: 5px solid black;
+     box-shadow: 1px 7px  rgba(0,0,0);
+    overflow: hidden;
+    transform: scalex(1.6);
+    rotate: 3deg;
+    margin: 0 110px;
+    
+}
+#hero .secondPart .content    .item:hover .image{
+    transform: scaleX(1.6) scale(1.009);
+
+}
+#hero .secondPart .content    .item .spa{
+    position: absolute;
+    top: -8px;
+    right: -4px;
+    border-radius: 2px;
+    background-color: red;
+    padding: 14px;
+    border: 2px solid black;
+    box-shadow: 1px 4px black;
+    color: white;
+    rotate: 14deg;
+    z-index: 0;
+    overflow: visible;
+}
+#hero .secondPart .content    .item img{
+   width: 100%;
+ 
+    display: block;
+      
+    transform: scale(1,1.5);  
+    
+}
+#hero .secondPart  .shadow{
+
+    overflow: hidden;
+    margin-top: 90px;
+}
+#hero .secondPart  .shadow .shadowinner{
+    width: 130px;
+    height: 100px;
+    rotate: 7deg;
+    background-color:#E5D877;
+   position: relative;
+   top: -8px;
+   right: 20px;
+    margin-left: 40px;
+   
+}
+#hero .secondPart .content    .item .shape{
+    width: 100px;
+    height: 100px ;
+    background-color: #FFDC7D;
+    position: absolute;
+    top: -90px;
+    right: 60px;
+    rotate: 40deg;
+} 
+#hero .secondPart .content    .item .shadowButton{
+     width: 100px;
+    height: 120px ;
+    background-color: #E9E491;
+    position: absolute;
+    bottom: 30px;
+    right:90px;
+    rotate: 60deg;
+    opacity: .7;
+    overflow: hidden;
+    z-index: 0;
+}
+#hero .secondPart  .spanTitle{
+    color: white ;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+    padding:  15px;
+  rotate: -2deg;
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 1px 8px black;
+}
+#hero .secondPart  .spanTitle i{
+    color: red;
+    padding-right: 6px;
+}
+#hero .secondPart .content .item{
+    padding: 0 25px;
+}
+#hero .secondPart .content .item h1{
+    
+    font-size: 70px;
+    font-weight: 900;
+}
+
+#hero .secondPart .content .item .Black{
+    color: black;
+
+}
+#hero .secondPart .content .item .red{
+    color: red;
+
+}
+#hero .secondPart .content .item .blue{
+    color: blue;
+
+}
+#hero .secondPart .content .item .paragraph{
+    margin: 30px 0;
+    background-color: white;
+    padding:  20px 15px;
+    font-size: 27px;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    border: 3px solid black;
+    box-shadow: 1px 4px black;
+    position: relative;
+    top: 0;
+    left: 0 ;
+    z-index: 1;
+
+}
+#hero .secondPart .content .item button{
+    color: white ;
+    border:4px solid black;
+   
+    padding: 15px 40px;
+    background-color: black;
+    font-size:20px ;
+    font-weight: 700;
+    box-shadow: 3px 5px black;
+    position: relative;
+    top: 0;
+    left: 0 ;
+    z-index: 1;
+    
+}
+#hero .secondPart .content .item .whitecolor{
+    background-color: white;
+    color: black;
+   border:4px solid black;
+    box-shadow: 3px 5px black;
+    margin:  0 40px 30px;
+   
+}
+#hero .secondPart .content .item .whitecolor:hover{
+    transform: scale(1.1)
+}
+
+#hero .secondPart .content .item .scaleButton:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+/* ################################################## */
+#LATESTARTICLES{
+    padding: 80px 0;
+    border: 4px solid black;
+    background-color: #F5F5F5;
+    
+}
+#LATESTARTICLES .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+   
+}
+
+#LATESTARTICLES .content .firstitem{
+    width: 70%;
+   display: flex;
+   flex-direction: column;
+}
+#LATESTARTICLES .content .firstitem .item:hover .scale1{
+    transform: scale(1.009);
+}
+#LATESTARTICLES .content .firstitem .item:hover .scale2{
+    transform: scale(1.009);
+}
+#LATESTARTICLES .content .firstitem .item:hover .scale3{
+    transform: scale(1.009);
+}
+
+
+
+
+
+#LATESTARTICLES .content .firstitem .item .pod:hover  span{
+    transform: scale(1.1);
+        
+}
+#LATESTARTICLES .content .firstitem .scale1:hover h3{
+   color: red;
+}
+
+#LATESTARTICLES .content .firstitem .scale2:hover h3{
+    color: blue;
+}
+#LATESTARTICLES .content .firstitem .scale3:hover h3{
+    color: #AD46FF;
+}
+#LATESTARTICLES .content .firstitem .item button{
+    /* position: relative;
+    top: 60px;
+    left: 300px;
+    background-color: black;
+    padding: 30px 70px;
+    border-radius: 14px;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+   box-shadow: 4px 7px black;
+   margin-bottom: 60px; */
+
+
+  
+    display: block;
+    margin: 60px auto;
+    background-color: black;
+    padding: 30px 70px;
+    border-radius: 14px;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 4px 7px black;
+}
+
+#LATESTARTICLES .content .firstitem .item button:hover{
+    transform: scale(1.08);}
+    
+#LATESTARTICLES .content .item .title{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+
+}
+#LATESTARTICLES .content .item .title h2{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "EXO",sans-serif;
+}
+#LATESTARTICLES .content .item .title span{
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px black     ;
+}
+#LATESTARTICLES .content .item .pod{
+    /* margin-top: 20px;
+    display: flex;
+    margin-right: 2px;
+    padding: 28px;
+    background-color: tomato;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+
+
+     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+margin-top: 30px; 
+ padding: 28px 10px;  
+ border: 8px solid black;
+ box-shadow: 4px 4px black;
+
+}
+#LATESTARTICLES .content .item .pod .titleImage{
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    margin-right: 20px;
+    width: 35%;
+   
+    
+}
+#LATESTARTICLES .content  .pod .titleImage .hotColor{
+    background-color: blue;
+}
+ #LATESTARTICLES .content  .pod .titleImage  .VIRALColor{
+    background-color:#AD46FF ;
+ }
+
+
+
+
+
+ 
+#LATESTARTICLES .content .pod .titleImage span{
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    border: 2px solid black;
+    padding: 4px 8px;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    transform: rotate(14deg);
+
+}
+#LATESTARTICLES .content .item .pod .image{
+    width: 90%;
+    border: 1px solid black;
+    
+
+}
+#LATESTARTICLES .content .item .pod .image img{
+    width: 100%;
+    display: block;
+}
+
+#LATESTARTICLES .content .item .pod .description {
+    width: 60%;
+    
+}
+#LATESTARTICLES .content .item .pod .description .title{
+    border:  2px solid black;
+    border-radius: 2px;
+    background-color: yellow;
+    padding: 4px 0;
+    width: fit-content;
+    
+    
+
+}
+#LATESTARTICLES .content .item .pod .description h3{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 4pxx;
+}
+#LATESTARTICLES .content .item .pod .description p{
+     
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+#LATESTARTICLES .content .item .pod .description .time{
+    padding: 20px 0;
+}
+
+#LATESTARTICLES .content .item .pod .description .time span{
+    border:  none;
+    border-radius: 0;
+    
+    padding: 1px;
+    box-sizing: border-box;
+    
+    
+}
+
+#LATESTARTICLES .content .seconditem {
+    padding: 10px 20px;
+    
+    width: 30%;
+    display: flex;
+    
+    justify-content: space-between;
+    border-collapse: collapse;
+    gap: 90px;
+    flex-wrap: wrap;
+    
+}
+#LATESTARTICLES .content .seconditem .twoItem{
+   padding:  0 40px;
+   
+}
+#LATESTARTICLES .content .seconditem .microline{
+    padding:  30px ;
+   box-shadow: 4px 15px black;
+    border-radius: 3px;
+    background-color:white;
+    transform: scale(1.2,1.1);
+    
+    
+}
+
+#LATESTARTICLES .content .seconditem .microline span{
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+#LATESTARTICLES .content .item .pod .description .designColor{
+background-color: #7BF1A8;
+}
+#LATESTARTICLES .content .item .pod .description .cultureColor{
+    background-color: #FDA5D5;
+}
+#LATESTARTICLES .content .seconditem .microline .letter{
+    padding: 0 0 0 26px;
+}
+#LATESTARTICLES .content .seconditem .microline .tech,.design,.culure,.option,.tutorial{
+    border-radius: 4px;
+    width: 100%;
+    padding: 3px 50px;
+    border: 2px solid black;
+    margin: 12px 0;
+    display: block;
+     font-size: 16px;
+    font-weight: 400;
+    
+}
+#LATESTARTICLES .content .seconditem .microline .tech{
+    
+  
+    padding-right: 130px  ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    background-color: #FEF9C2;
+    
+}
+#LATESTARTICLES .content .seconditem .microline .tech:hover{
+    background-color: yellow;
+}
+#LATESTARTICLES .content .seconditem .microline .design{
+   
+  
+    padding-right: 130px  ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    background-color: #DBFCE7;
+
+    margin-top: 20px;
+    
+}
+#LATESTARTICLES .content .seconditem .microline .design:hover{
+    background-color: green;
+}
+#LATESTARTICLES .content .seconditem .microline .culure{
+  margin-top: 20px;
+  
+    padding-right: 130px  ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    background-color: #FCE7F3;
+}
+#LATESTARTICLES .content .seconditem .microline .culure:hover{
+    background-color: #F5A9D0;
+} overflow: hidden;
+#LATESTARTICLES .content .seconditem .microline .option{
+    margin-top: 20px;
+  
+    padding-right: 130px  ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    background-color: #DBEAFE;
+}
+#LATESTARTICLES .content .seconditem .microline .option:hover{
+    background-color: #0086D1;
+}
+#LATESTARTICLES .content .seconditem .microline .tutorial{
+   
+  margin-top: 20px;
+   padding-right: 110px  ;
+     padding-top: 7px;
+    padding-bottom: 2px; 
+     padding-left: 2px; 
+    box-sizing: border-box;
+    background-color: #F3E8FF;
+  
+}
+#LATESTARTICLES .content .seconditem .microline .tutorial:hover{
+    background-color: #AD46FF;
+}
+#LATESTARTICLES .content .seconditem .twoItem .microline  .redColor span{
+    color: red;
+}
+
+#LATESTARTICLES .content .seconditem .twoItem .microline  .blueColor span{
+    color: blue;
+}
+#LATESTARTICLES .content .seconditem .twoItem .microline  .otherColor span{
+    color:#AD46FF   ;
+}
+
+#LATESTARTICLES .content .seconditem .twoItem .microline:hover .redColor{
+    color: red;
+}
+
+
+#LATESTARTICLES .content .seconditem .twoItem .microline:hover .blueColor{
+    color: blue;
+}
+#LATESTARTICLES .content .seconditem .twoItem .microline:hover .otherColor{
+    color: #AD46FF;
+}
+
+
+
+
+
+
+
+/* ###########################################333 */
+#AUTHORS {
+    background-color: #FFD230;
+}
+#AUTHORS .container .title{
+    text-align: center;
+    padding-top: 50px;
+
+}
+#AUTHORS .container .title h2{
+    font-size: 48px;
+    font-weight: 900;
+  
+}
+
+#AUTHORS .container .title p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #525252;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#AUTHORS .container .title p::after{
+    content: "";
+    background-color: black;
+    width: 120px;
+    height: 7px;
+    position: absolute;
+    top:40px;
+    left: 45%;
+}
+#AUTHORS .container .content .firstItem:hover h4{
+    color: red;
+}
+#AUTHORS .container .content .inner .fa-twitter:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+#AUTHORS .container .content .inner .fa-linkedin:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+#AUTHORS .container .content .inner .fa-instagram:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+
+#AUTHORS .container .content .secondItem:hover h4{
+    color: blue;
+}
+
+#AUTHORS .container .content .threeItem:hover h4{
+    color: #AD46FF;
+}
+#AUTHORS .container .content{
+    margin-top: 30px;
+    display: flex;
+      flex-wrap: wrap;
+    
+    
+    
+
+}
+#AUTHORS .container .content .inner{
+    padding: 20px;
+  width: 33.33%;
+
+}
+#AUTHORS .container .content .items{
+   
+    
+ text-align: center;
+ background-color: white;
+ padding: 40px;
+ border: 4px solid black;
+ box-shadow: 4px 10px black;
+ position: relative;
+ top: 0;
+ left: 0;
+
+}
+#AUTHORS .container .content .items .positionItem{
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: 7px 7px ;
+    border-radius: 3px;
+    background-color: red;
+    border: 2px solid black;
+    rotate: 20deg;
+    color: white;
+}
+
+
+#AUTHORS .container .content .items .positionItem3{
+    rotate: 40deg;
+    background-color: #AD46FF;
+}
+#AUTHORS .container .content .items .positionItem2{
+    rotate: -25deg;
+    background-color: #AD46FF;
+}
+#AUTHORS .container .content .items:hover{
+    transform: scale(1.1);
+}
+#AUTHORS .container .content .items .image{
+    width: 50%;
+    margin-left: 25%;
+    
+
+}
+
+#AUTHORS .container .content .items .image img{
+    width: 100%;
+   
+    border: 5px solid black;
+}
+
+
+#AUTHORS .container .content .items .caption{
+    margin-top: 26px;
+}
+#AUTHORS .container .content .items .caption h4{
+    margin-bottom: 9px;
+    
+    font-size: 30px;
+    font-family: 900;
+}
+
+#AUTHORS .container .content .items .caption p{
+ 
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: 400;
+    color: black;
+}
+
+#AUTHORS .container .content .items .links{
+    margin-top: 7px;
+    box-sizing: border-box;
+}
+#AUTHORS .container .content .items .links a{
+   padding: 26px;
+    text-align: center;
+     
+    
+}
+#AUTHORS .container .content .items .links i{
+background-color: black;  
+padding: 20px 31px 22px 20px;
+border: none;
+border-radius: 1px;
+color: white;
+
+
+
+}
+
+
+#COMMUNITY{
+    padding-top: 50px;
+    background-color: #F5F5F5;
+
+}
+#COMMUNITY .content{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+#COMMUNITY .title{
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+#COMMUNITY .title h3{
+    font-size: 48px;
+    font-weight: 900;
+     margin-top: 40px;
+}
+
+#COMMUNITY .title p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #525252;
+    margin-left: 20px;
+}
+#COMMUNITY  .item {
+    width: 45%;
+     margin-left: 20px;
+     
+     
+
+}
+#COMMUNITY  .secondItem{
+    background-color: white;
+    padding: 30px;
+    margin-left: 90px;
+    border: 6px solid black;
+    box-shadow: 6px 6px black;
+}
+#COMMUNITY .item h4{
+    font-size: 36px;
+    font-weight: 900;
+    
+
+}
+#COMMUNITY .item .text{
+    margin-top: 20px;
+    padding: 30px;
+    border: 4px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 6px 6px black;
+    margin-bottom: 20px;
+}
+#COMMUNITY .item .shape {
+    padding: 20px 0px;
+    display: flex;
+    
+    
+   
+
+}
+#COMMUNITY .item .shape i{
+    padding: 18px 30px 10px 15px;
+    border: 2px solid black;
+    margin-right: 10px;
+
+    
+}
+#COMMUNITY .item .shape  .fa-check{
+    background-color: #FB2C36;
+}
+#COMMUNITY .item .shape .fa-snapchat{
+    background-color: #2B7FFF;
+}
+#COMMUNITY .item .shape .fa-star{
+    background-color: #AD46FF;
+}
+#COMMUNITY .item .shape .fa-pen{
+    background-color: #00C950;
+}
+
+#COMMUNITY .item .rocket {
+    padding: 25px 30px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 6px 6px black;
+    margin-bottom: 40px;
+}
+#COMMUNITY .item .rocket:hover{
+    transform: scale(1.1);
+}
+#COMMUNITY .item .rocket i{
+    padding-right: 30px;
+}
+#COMMUNITY .item .shape p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+
+#COMMUNITY .item .text2 img{
+    width: 45px;
+    
+   
+}
+#COMMUNITY .item .text3{
+    background-color: #FEF2F2;
+}
+#COMMUNITY .item .text4{
+    background-color: #EFF6FF;
+}
+#COMMUNITY .item .text5{
+    background-color: #FAF5FF;
+}
+
+#COMMUNITY .item .text2 {
+    padding: 25px;
+    border: 2px solid black;
+
+   
+    margin-bottom: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+#COMMUNITY .item .text2  .nextphoto{
+  position: absolute;
+  
+  bottom:20px;
+  left: 80px;
+
+}
+
+
+
+
+
+
+#endSec{
+    background-color: black;
+    padding: 20px;
+}
+#endSec .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#endSec .content  .item  p{
+    color: white;
+}
+#endSec .content  .item  span{
+    color: white;
+}
+#endSec .content p{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+#endSec .content .item img{
+    width: 70px;
+    padding:25px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+#endSec .content  .twoItem{
+    margin-top: 10px;
+    
+    text-align: center;
+    
+}
+#endSec .content  .twoItem span{
+    font-size: 24px;
+    font-weight: 900;
+}
+#endSec .content  .twoItem  li{
+   margin: 25px 0;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#endSec .content .item .title{
+    font-size:30px ;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+#endSec .content .item{
+    padding: 40px;
+    width: 33.33%;
+}
+#endSec .content .item p{
+    margin-top: 20px;
+}
+#endSec .content .endItem{
+    margin-top:;
+}
+#endSec .content .endItem span{
+    font-size: 24px ;
+    font-weight: 900;
+}
+#endSec .content .endItem p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#endSec .content .endItem input{
+    padding: 24px;
+    width: 100%;
+    background-color: black;
+     border: 1px solid white;
+}
+#endSec .content .endItem input::placeholder{
+    font-size: 20px;
+    color: #97A1A1;
+   
+}
+#endSec .content .endItem button{
+    width: 100%;
+    border-radius: 1px;
+    background-color: yellow;
+    padding: 24px;
+    margin-top: 15px;
+    box-shadow: 6px 4px yellow;
+    border: none;
+}
+#endSec .content  .line{
+    width: 100%;
+    height: 2px;
+    color: white;
+    background-color: white;
+}
+#endSec .content .underLiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+#endSec .content .underLiner .first{
+   
+   
+    margin-top: 20px;
+}
+#endSec .content .underLiner .first p{
+    color: white;
+}
+#endSec .content .underLiner .second{
+    
+    
+    text-align: right   ;
+}
+#endSec .content .underLiner .second ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#endSec .content .underLiner .second ul li{
+    padding: 0 30px;
+    color: white;
+    list-style: none;
+    margin-top: 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+
+    
+    #hero .secondPart .content{
+        flex-direction: column;
+    }
+
+    #hero .secondPart .content .item{
+        width: 100%;
+        text-align: center;
+    }
+
+    #hero .secondPart .content .item h1{
+        font-size: 50px;
+    }
+
+    #hero .secondPart .content .item .image{
+        width: 80%;
+        margin: 40px auto;
+        transform: scaleX(1);
+    }
+
+    #hero .secondPart .content .item:hover .image{
+        transform: scale(1.02);
+    }
+
+
+    #LATESTARTICLES .content{
+        flex-direction: column;
+    }
+
+    #LATESTARTICLES .content .firstitem,
+    #LATESTARTICLES .content .seconditem{
+        width: 100%;
+    }
+
+    #LATESTARTICLES .content .item button{
+        left: 0;
+        top: 20px;
+        width: 100%;
+        
+    }
+    #AUTHORS .container .content .items .links i{
+        padding: 10px 10px;
+    }
+     #LATESTARTICLES .content .firstitem .scale3 button{
+        position: relative;
+        top: 0;
+        left: 1500px;
+     }
+     
+    
+    #AUTHORS .container .content .inner{
+        width: 50%;
+    }
+
+    
+    #COMMUNITY .content{
+        flex-direction: column;
+    }
+
+    #COMMUNITY .item{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #COMMUNITY .secondItem{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+   
+    #LATESTARTICLES .content .seconditem .twoItem{
+   padding:  0 50px 0 0 ;
+   
+}
+    
+    #endSec .content .item{
+        width: 100%;
+        text-align: center;
+    }
+} 
+
+
+
+@media screen and (max-width: 768px){
+   
+    #hero .navbar{
+        padding: 15px;
+    }
+
+    #hero .navbar .logo{
+        font-size: 22px;
+    }
+
+    #LATESTARTICLES .content .seconditem .twoItem{
+   padding:  0 50px 0 0 ;
+   
+}
+    #hero .secondPart .content .item h1{
+        font-size: 38px;
+    }
+
+    #hero .secondPart .content .item .paragraph{
+        font-size: 18px;
+    }
+
+    #hero .secondPart .content .item button{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #hero .secondPart .content .item .whitecolor{
+        margin: 10px 0;
+    }
+
+    #hero .secondPart .content .item .image{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    
+    #LATESTARTICLES .content .item .pod{
+        flex-direction: column;
+    }
+
+    #LATESTARTICLES .content .item .pod .titleImage,
+    #LATESTARTICLES .content .item .pod .description{
+        width: 100%;
+    }
+
+    #LATESTARTICLES .content .item .title h2{
+        font-size: 30px;
+    }
+
+    
+    #AUTHORS .container .content .inner{
+        width: 100%;
+    }
+
+    
+    #endSec .content .underLiner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #endSec .content .underLiner .second ul{
+        justify-content: center;
+    }
+
+    #endSec .content .underLiner .second ul li{
+        padding: 10px;
+    }
+
+     #AUTHORS .container .content .items .links i{
+        padding: 10px 30px 10px 20px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+    #hero .navbar .list{
+        display: none;
+    
+    }
+     
+ }
+ 
